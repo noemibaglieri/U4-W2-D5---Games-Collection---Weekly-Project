@@ -7,10 +7,10 @@ public class Videogame extends Game {
     private int playingTimeInHours;
     private Genre genre;
 
-    public Videogame(int id, String title, int yearOfPublication, double price, String platform, int playingTime, Genre genre) {
+    public Videogame(int id, String title, int yearOfPublication, double price, String platform, int playingTimeInHours, Genre genre) {
         super(id, title, yearOfPublication, price);
         this.platform = platform;
-        this.playingTimeInHours = playingTime;
+        this.playingTimeInHours = playingTimeInHours;
         this.genre = genre;
     }
 
