@@ -98,15 +98,10 @@ public class Collection {
         System.out.println("Average game price: " + averagePrice + "€");
     }
 
-
-
-
     @Override
     public String toString() {
         return "Collection{" + list +
                 '}';
     }
-
-
 
 }
